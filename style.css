@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: rgb(251, 253, 253);
+}
+
+body{
+  padding:50px;
+}
+.container{
+  max-width: 600px;
+  margin:0 auto;
+  padding:50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+  margin-bottom:8px;
+}
+
+/* .deviceCategory{
+  text-align: center;
+  margin-left: 5px;
+} */
+
+.section-3 {
+  display: flex;
+  padding-left: 2rem;
+}
+.section-2 {
+padding-left: 2rem;
+}
+.top-pages {
+  flex: 1;
+  margin-right: 10px;
+}
+.topLocation {
+  flex: 1;
+  max-height: 400px !important;
+  max-width: 450px;
+  padding-left: 10px;
+}
+
+
+
