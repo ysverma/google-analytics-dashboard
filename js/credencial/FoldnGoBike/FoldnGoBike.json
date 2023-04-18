@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "foldngobike",
+  "private_key_id": "738aa013cd137f8fdcf222d84c2ff04ab44e2810",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDpZzrqc7icwEpM\nFyD6Lg0cYGEjjfz2r+qHXS9I7sZ9dHhX8MjTXk/HMffayjZ86cx1RIH71h7uoQne\n3s2dVjfyLp4sQGcT8UiTwmAwT4h7bAzv5YEtpKf5YkSrbA0bwJS9wk2lK1ZrcO2w\nDfwbdgivGq4gtqIT6ok2fXpL2BrIswyr416Y6ekAMi5zxySKUyYYpTPiW5drE3QZ\nQRvR4Wh1qWJkCzFB4ZGH8xYl84QesYmYAj10TJiI1TEvlZzuqAMqlQGGwUzKwFN6\njlo9iXPMwetcFfLx2EL9GpN+5AndHEYq5LGgfAfAclTTg3pd14bsaYHP73LoF95s\ndltGJF8HAgMBAAECggEAPRnhogPGVf6+1HmPj/7jPsT6WQjwKpI15tbdrI2Zl7kY\nUgk+QZskbmSl2nhqWDwKYr6a+pb8xQKSZ25TTHeIMNXEYZhAg8d79PaDINKJS6on\nHtwpe43pzU7M5EVmjxfUuHJ3yh/0wS6wgpC+qV+2eUSWRgkZl/Yjkoi5rcY2iMha\nrJe0QdGYtKSfpGP9SYsFMTARw23ap7xTkhyrrKbdP7tvZQC+CTcOkaWdxr5hhCUa\ntNU6lEoSBxdyhWDHkbfNht3Anqt1dfqwqrQp+pLkaNOMJpqZp2oySHa/SlP/LBXy\nqKGmzXMAFKBmFlu0k2uSAx8uPNWK4xrc9V1vVOK1+QKBgQD5NkBJNbPEh/PE7tNb\nl7R/+8rLF0Uc7iGrtcRi8phT25wkt+yLnIl5ogplg1qofmp7olwtaDsRW4B75B9F\nrdrlsK0H4kF0I083d24hOIbR5Q5My59bwpqTLNGPy9elULo8XEcoFF7YEX2AiCJj\nJ4iOwSBK5I9mnrWT55NgQ03OCQKBgQDvwr7Y34v2fjzAa/T2CjaipdfZ3j7FybF5\nY0wNMi5ZpFRxuCT1T+rZX8b2Dy+H6pPAx314XN+WsWat7RoY378bkjlVqhQvn+03\nasPwMRzR4bvTl8kzCfgqLLVRbJXCfDTQr8K4+UKMlSCsO+TVTVwlZKYO1Szi7+Vv\nUchA1M4IjwKBgFxVx3fYl+SnYqCCxHjZOp1402hwFMFlUcBnNn5a2Cmp4q6QHuqT\nczRH34ZBJuPrAtUQEQsZ5VjHCFHe8d9FTSdxUIrtP8ciFgW9EGbqpLk8HxJBF6hN\n8Cu7nWGj6yBrSrV2kz68XW+8+z0WM3d9fFE4KRjWmnMxNqG4WZh/F2LRAoGBAIgG\n1zw36DKbAGCzXzFQLhstOD91ZevVOImEGpvKAp39K6OxM9ax1q4pNrpXd0IHhnhz\nNe5Z0siuMXEv+gRuvQApf7noWreCZpVwT2YwlwdEqMmtbgs09sUGxIBDuNu0mEpl\nzXYghO85lGXjPTr/Pu5AIi58J5FBRcxYe+K8WYBlAoGAVcp1xsRy2Djy6wXIfZlX\nAhvlOntDnRRFUtnObUv1WPfxHuzpl3hW8CsBcnNCx5AUAoHeV2QsUymYQnBYXqAe\ngkIwHfJ8PT3bp19uMv8lfrG+PBdB0faNZ5uBixZegiwpe4NOlQC3PVyC+yygovvA\nNg+vxIgX6Sxkw7bW9JNulSY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "foldngobike@foldngobike.iam.gserviceaccount.com",
+  "client_id": "111901167743578698257",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/foldngobike%40foldngobike.iam.gserviceaccount.com"
+}

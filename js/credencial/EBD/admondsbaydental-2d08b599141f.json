@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "admondsbaydental",
+  "private_key_id": "2d08b599141fbc239b0958c6fccd7c566e76c760",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC7X5Tipi8quG7o\n//ud1CBhLoKRbDADFhFIhpwQK+MAkX2eekiE9RBQ6fX7RoEmnO2erJEQe+Y/Q+IN\n9GNXqhCxfw4FkpdGitwujWhh418khjiIyZgZ6dXpLM6itMoLRdiBELpzAQdkxffY\nnuJaypLPtVdGW6KcfW2UOC/i84pXaXxd3qImYbiYFbeJ46PvkCka9wtzztvWruK0\nGAZaVeaEt/gYhznXaLgHOLxXNTK7QGD8e18rHoBvJoj4tVGRqcTYzGrTfT3t81mo\nGovLhYeRm7+aGKj2pIk1rYdlAfHbeUZ8014+BVIUpcYvJdCOeOkTpKEDnjgCqHu/\ngc1LtkJ1AgMBAAECggEAGAyx27B4W9ud0raueUjFmiuh0yAHfpHpyH0MkW/MnGFQ\nNhPcdIJO5I/PBIA9afMY9bWRDgRVHngsTt24FYOszldwOYth8so2bhw00mGgb9vx\nbC8x4FuY2uunHw+k4jMGEbTPtZyjcg4N3IYyJ/SZyOKt78gptDvOIYjfrpnTPxpA\noXR2wtwZICam0FqV9DhTErUut/bD1qeaPfnNFhbiGkQhgjFlmbzz/IcRfYawoltr\nII2+HuvpP63spkpePn7q+EIJJyGBZeCF13uk6S2LVfZqyf6tneTh3AqTzaI6D0qN\ne07TkcMgAyeWFyXj5Bc1/kfTcLbKyDUdxCjhPB7ooQKBgQD2VglCj1lNShvo4/7N\n26fJOQhrAoLfIFv6DL0/gOq8WBkoRhR9aN6dEtfAvUSJMx8Wuw71O/mX6n5zchK0\nWqjSK7Bccam8Itg0RUbFeShXKG1d4mUNNURu2JnlJVCpUyjs4TFdrD2/OvP+U6rV\ngJiUYhmOSSdLXM7DNIGbLnRbFQKBgQDCuWFefAjx0Ei85b8machs8AXRw24YExCD\nbdtH5CPI0fltWhIlYrjUS8J75iPwIPNrYia1ONC9KamSq4cft+Z+nLxzoTT+HFX1\nv+itn2aGMgcbaTbbjLXGBOWvCiqdxNXWu367v6zYNSrUn+4UVmd0G+BPngJ4ZDVP\nyDS4RAKh4QKBgHF3Ab7p3n1uVFq6ogRaV/ek0I7R0kxKUHNl6MnWbMkiXzwgw5Fc\ne6WoJz79LxNvO7Oxp9snq/jgpywv8BOo6rgcLZj3NfKVrjatbkLJYt56nZ2wCVHD\nJmlUVdapkHTd/CzYMW/vRWXPFtIf4cGEAUPfx9u1MGdTMV3S0pwTEr9dAoGABx53\n7NhkC1MuFZngryrW5QSxccXPVJn91JBDoBE7LbBfihvs5ekCEODkL1tunOzXeWmR\nOLbnCsNnK7GRsxsqFh7s1N1j7pZiniVyAEb/nJBfqiTimIxAaQjszMV2YWY82yjn\nrT2IuC7ZbgSa06uFBL2wKbkBJh2jxVLwenwiDIECgYAl0PidYQ7hOENjZzDyDb4o\nAomrFwK88uHnB9uNO2QKn5epSS79WRTEAhF22lAVGuxGK+uaMEDLuRHxDUddMpW6\nexSBH4yqXBCEkZkSR7TbDMTiQ0sYlxooYgVoXS3wMDSQGqoeETHAJSExI9w4r440\nfZxdBtrj3v7BcTSocJNu0w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "edmondsbaydental@admondsbaydental.iam.gserviceaccount.com",
+  "client_id": "111117378028116756763",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/edmondsbaydental%40admondsbaydental.iam.gserviceaccount.com"
+}
