@@ -12,7 +12,7 @@ use Google\Analytics\Data\V1beta\Dimension;
 use Google\Analytics\Data\V1beta\Metric;
 
 
-$property_id = '313666521'; 
+$property_id = 'xxxxxxxxxxxxx'; //replace your google analytics property id 
 
 // Connect to the database
 include "../Database/DbConfig.php";
