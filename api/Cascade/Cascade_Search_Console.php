@@ -4,24 +4,24 @@ header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
 // Load the Google API PHP Client Library.
-require_once '../../vendor/autoload.php';
+require_once '../../vendor/autoload.php';// this is a vendor file create a using composor 
 
 use Google\Client;
 use Google\Service\SearchConsole;
 use Google\Service\SearchConsole\SearchAnalyticsQueryRequest;
 
-$site = "https://www.cascadethermal.com/";
+$site = "https://www.xyz.com/"; //Replace your website 
 
-$KEY_FILE_LOCATION ='../../js/credencial/Cascade/cascade.json';
+$KEY_FILE_LOCATION ='../../js/credencial/Cascade/cascade.json';//this is your credential file download from your google service account 
 
 
 putenv("GOOGLE_APPLICATION_CREDENTIALS=$KEY_FILE_LOCATION");
 
 // Establish a database connection
 $servername = "localhost";
-$username = "dotzoo_analytics_dashboard";
-$password = "@O7+qplhpM&9";
-$dbname = "dotzoo_analytics_dashboard";
+$username = "root";
+$password = "";
+$dbname = "analytics";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
