@@ -1,9 +1,9 @@
 <?php
  header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
-putenv('GOOGLE_APPLICATION_CREDENTIALS=../../js/credencial/Cascade/cascade.json');
+putenv('GOOGLE_APPLICATION_CREDENTIALS=../../js/credencial/Cascade/cascade.json');//this is your credential file download from your google service account 
 
-require_once '../../vendor/autoload.php';
+require_once '../../vendor/autoload.php';// this is a vendor file create a using composor 
 
 use Google\Analytics\Data\V1beta\BetaAnalyticsDataClient;
 use Google\Analytics\Data\V1beta\DateRange;
@@ -12,7 +12,7 @@ use Google\Analytics\Data\V1beta\Metric;
 
 $client = new BetaAnalyticsDataClient();
 
-$property_id = '313666521'; // GA4 property ID
+$property_id = 'xxxxxxxxxxx'; // GA4 property ID
 
 // Connect to the database
 include "../Database/DbConfig.php";
