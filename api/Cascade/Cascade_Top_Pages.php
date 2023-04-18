@@ -1,7 +1,7 @@
 <?php
  header('Access-Control-Allow-Origin: *');
   header('Content-Type: application/json');
-putenv('GOOGLE_APPLICATION_CREDENTIALS=../../js/credencial/Cascade/cascade.json');
+putenv('GOOGLE_APPLICATION_CREDENTIALS=../../js/credencial/Cascade/cascade.json');//
 
 require_once '../../vendor/autoload.php';
 
@@ -11,7 +11,7 @@ use Google\Analytics\Data\V1beta\Dimension;
 use Google\Analytics\Data\V1beta\Metric;
 
 
-$property_id = '313666521'; 
+$property_id = 'xxxxxxx'; 
 
 // Connect to the database
 include "../Database/DbConfig.php";
