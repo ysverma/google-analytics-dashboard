@@ -1,0 +1,6 @@
+[11-Apr-2023 02:23:47 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/dotzoo/public_html/analyticsdashboard/users/FoldnGoBike/FoldnGoBike_Dashboard.php on line 66
+[11-Apr-2023 02:23:47 America/Chicago] PHP Warning:  Undefined array key "username" in /home2/dotzoo/public_html/analyticsdashboard/users/FoldnGoBike/FoldnGoBike_Dashboard.php on line 67
+[11-Apr-2023 02:23:47 America/Chicago] PHP Warning:  Undefined array key "domainname" in /home2/dotzoo/public_html/analyticsdashboard/users/FoldnGoBike/FoldnGoBike_Dashboard.php on line 68
+[13-Apr-2023 07:02:59 America/Chicago] PHP Warning:  Undefined array key "email" in /home2/dotzoo/public_html/analyticsdashboard/users/FoldnGoBike/FoldnGoBike_Dashboard.php on line 66
+[13-Apr-2023 07:02:59 America/Chicago] PHP Warning:  Undefined array key "username" in /home2/dotzoo/public_html/analyticsdashboard/users/FoldnGoBike/FoldnGoBike_Dashboard.php on line 67
+[13-Apr-2023 07:02:59 America/Chicago] PHP Warning:  Undefined array key "domainname" in /home2/dotzoo/public_html/analyticsdashboard/users/FoldnGoBike/FoldnGoBike_Dashboard.php on line 68
