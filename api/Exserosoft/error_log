@@ -1,0 +1,500 @@
+[12-Apr-2023 04:44:37 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[12-Apr-2023 04:44:56 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[12-Apr-2023 04:46:04 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[12-Apr-2023 04:46:31 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[12-Apr-2023 04:47:15 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[12-Apr-2023 04:48:03 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[12-Apr-2023 04:48:47 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[13-Apr-2023 02:21:05 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[13-Apr-2023 03:30:21 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[13-Apr-2023 04:50:26 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[14-Apr-2023 01:21:54 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[14-Apr-2023 01:23:31 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[14-Apr-2023 01:30:49 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[14-Apr-2023 01:33:14 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[14-Apr-2023 10:33:54 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[14-Apr-2023 10:34:39 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[15-Apr-2023 06:41:40 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[15-Apr-2023 07:21:31 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[17-Apr-2023 04:46:00 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128
+[17-Apr-2023 04:49:51 America/Chicago] PHP Fatal error:  Uncaught Google\Service\Exception: {
+  "error": {
+    "code": 403,
+    "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+    "errors": [
+      {
+        "message": "User does not have sufficient permission for site 'https://exserosoft.com/'. See also: https://support.google.com/webmasters/answer/2451999.",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+ in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php:128
+Stack trace:
+#0 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(103): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Task/Runner.php(182): call_user_func_array(Array, Array)
+#3 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Client.php(918): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Service/Resource.php(238): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient-services/src/SearchConsole/Resource/Searchanalytics.php(51): Google\Service\Resource->call('query', Array, 'Google\\Service\\...')
+#7 /home2/dotzoo/public_html/analyticsdashboard/api/Exserosoft/Exserosoft_Search_Console.php(59): Google\Service\SearchConsole\Resource\Searchanalytics->query('https://exseros...', Object(Google\Service\SearchConsole\SearchAnalyticsQueryRequest))
+#8 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/vendor/google/apiclient/src/Http/REST.php on line 128

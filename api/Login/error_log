@@ -1,0 +1,30 @@
+[15-Feb-2023 00:57:54 America/Chicago] PHP Warning:  require_once(./api/Database/DbConfig.php): Failed to open stream: No such file or directory in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 00:57:54 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required './api/Database/DbConfig.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 01:03:11 America/Chicago] PHP Warning:  require_once(./api/Database/DbConfig.php): Failed to open stream: No such file or directory in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 01:03:11 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required './api/Database/DbConfig.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 01:03:24 America/Chicago] PHP Warning:  require_once(./api/Database/DbConfig.php): Failed to open stream: No such file or directory in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 01:03:24 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required './api/Database/DbConfig.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 22:53:45 America/Chicago] PHP Warning:  require_once(./api/Database/DbConfig.php): Failed to open stream: No such file or directory in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 22:53:45 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required './api/Database/DbConfig.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 22:53:54 America/Chicago] PHP Warning:  require_once(./api/Database/DbConfig.php): Failed to open stream: No such file or directory in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 22:53:54 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required './api/Database/DbConfig.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 22:54:00 America/Chicago] PHP Warning:  require_once(./api/Database/DbConfig.php): Failed to open stream: No such file or directory in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
+[15-Feb-2023 22:54:00 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required './api/Database/DbConfig.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dotzoo/public_html/analyticsdashboard/api/Login/LoginApi.php on line 8
